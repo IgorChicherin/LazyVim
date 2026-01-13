@@ -3,3 +3,4 @@
 -- Add any additional options here
 --
 vim.opt.foldenable = false
+vim.g.lazyvim_python_lsp = "basedpyright"
