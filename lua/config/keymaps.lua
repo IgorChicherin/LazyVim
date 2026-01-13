@@ -3,11 +3,6 @@
 -- Add any additional keymaps here
 
 local map = vim.keymap.set
---
--- map("n", "<c-/>", function()
---   Snacks.terminal(nil, { cwd = vim.uv.cwd() })
--- end, { desc = "Terminal (Root Dir)" })
---
 
 -- Terminal Mappings
 map("t", "<C-/>", "<cmd>close<cr>", { desc = "Hide Terminal" })
