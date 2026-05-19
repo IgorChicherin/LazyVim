@@ -7,3 +7,6 @@ local map = vim.keymap.set
 -- Terminal Mappings
 map("t", "<C-/>", "<cmd>close<cr>", { desc = "Hide Terminal" })
 map("t", "<c-_>", "<cmd>close<cr>", { desc = "which_key_ignore" })
+map("n", "<leader>du", function()
+  require("dap-view").toggle({})
+end, { desc = "Dap UI" })
